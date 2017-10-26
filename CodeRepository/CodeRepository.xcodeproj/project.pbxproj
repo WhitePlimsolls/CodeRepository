@@ -16,6 +16,9 @@
 		4618FF301FA1E5200085FBD8 /* FuncClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF2F1FA1E5200085FBD8 /* FuncClassView.m */; };
 		4618FF351FA1E6B30085FBD8 /* Consts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF341FA1E6B30085FBD8 /* Consts.m */; };
 		4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF371FA1E8C50085FBD8 /* NetManager.m */; };
+		8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EAC1FA221F400A192DC /* HomeViewController.m */; };
+		8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB11FA222BA00A192DC /* HomeNavigationController.m */; };
+		8B117EB91FA22A7A00A192DC /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB81FA22A7A00A192DC /* LaunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,13 @@
 		4618FF341FA1E6B30085FBD8 /* Consts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Consts.m; sourceTree = "<group>"; };
 		4618FF361FA1E8C50085FBD8 /* NetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		4618FF371FA1E8C50085FBD8 /* NetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		8B117EAB1FA221F400A192DC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8B117EAC1FA221F400A192DC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8B117EB01FA222BA00A192DC /* HomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavigationController.h; sourceTree = "<group>"; };
+		8B117EB11FA222BA00A192DC /* HomeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeNavigationController.m; sourceTree = "<group>"; };
+		8B117EB61FA227CD00A192DC /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		8B117EB71FA22A7A00A192DC /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		8B117EB81FA22A7A00A192DC /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,10 @@
 		4618FF1B1FA1E0850085FBD8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8B117EAF1FA2228500A192DC /* Navigation */,
 				4618FF221FA1E2390085FBD8 /* Public */,
+				8B117EAB1FA221F400A192DC /* HomeViewController.h */,
+				8B117EAC1FA221F400A192DC /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -109,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				4618FF231FA1E2430085FBD8 /* Public */,
+				8B117EB71FA22A7A00A192DC /* LaunchViewController.h */,
+				8B117EB81FA22A7A00A192DC /* LaunchViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 		4618FF1E1FA1E0B90085FBD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B117EB51FA227C300A192DC /* Images */,
 				4618FF261FA1E4060085FBD8 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -162,6 +178,23 @@
 			children = (
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		8B117EAF1FA2228500A192DC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8B117EB01FA222BA00A192DC /* HomeNavigationController.h */,
+				8B117EB11FA222BA00A192DC /* HomeNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		8B117EB51FA227C300A192DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8B117EB61FA227CD00A192DC /* launch.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +270,13 @@
 				4618FF061FA1D61F0085FBD8 /* ViewController.m in Sources */,
 				4618FF2D1FA1E4F60085FBD8 /* BaseViewController.m in Sources */,
 				4618FF111FA1D61F0085FBD8 /* main.m in Sources */,
+				8B117EB91FA22A7A00A192DC /* LaunchViewController.m in Sources */,
 				4618FF351FA1E6B30085FBD8 /* Consts.m in Sources */,
 				4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */,
 				4618FF301FA1E5200085FBD8 /* FuncClassView.m in Sources */,
 				4618FF031FA1D61E0085FBD8 /* AppDelegate.m in Sources */,
+				8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */,
+				8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV26RH2FGW;
+				GCC_PREFIX_HEADER = CodeRepository/Configure/PrefixHeader.h;
 				INFOPLIST_FILE = CodeRepository/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -383,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV26RH2FGW;
+				GCC_PREFIX_HEADER = CodeRepository/Configure/PrefixHeader.h;
 				INFOPLIST_FILE = CodeRepository/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

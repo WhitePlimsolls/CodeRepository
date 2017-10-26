@@ -15,5 +15,5 @@
 
 UIKIT_EXTERN NSString * const AKey;
 
-
+UIKIT_EXTERN CGFloat const someViewWidth;
 #endif

@@ -10,7 +10,8 @@
 #define PrefixHeader_h
 
 
-
+#import "DefinesConfi.h"
+#import "Consts.h"
 
 
 #endif /* PrefixHeader_h */
