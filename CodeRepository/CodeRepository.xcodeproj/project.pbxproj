@@ -18,7 +18,6 @@
 		4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF371FA1E8C50085FBD8 /* NetManager.m */; };
 		8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EAC1FA221F400A192DC /* HomeViewController.m */; };
 		8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB11FA222BA00A192DC /* HomeNavigationController.m */; };
-		8B117EB91FA22A7A00A192DC /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB81FA22A7A00A192DC /* LaunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +45,6 @@
 		8B117EB01FA222BA00A192DC /* HomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavigationController.h; sourceTree = "<group>"; };
 		8B117EB11FA222BA00A192DC /* HomeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeNavigationController.m; sourceTree = "<group>"; };
 		8B117EB61FA227CD00A192DC /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
-		8B117EB71FA22A7A00A192DC /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
-		8B117EB81FA22A7A00A192DC /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				4618FF231FA1E2430085FBD8 /* Public */,
-				8B117EB71FA22A7A00A192DC /* LaunchViewController.h */,
-				8B117EB81FA22A7A00A192DC /* LaunchViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,7 +265,6 @@
 				4618FF061FA1D61F0085FBD8 /* ViewController.m in Sources */,
 				4618FF2D1FA1E4F60085FBD8 /* BaseViewController.m in Sources */,
 				4618FF111FA1D61F0085FBD8 /* main.m in Sources */,
-				8B117EB91FA22A7A00A192DC /* LaunchViewController.m in Sources */,
 				4618FF351FA1E6B30085FBD8 /* Consts.m in Sources */,
 				4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */,
 				4618FF301FA1E5200085FBD8 /* FuncClassView.m in Sources */,
