@@ -17,6 +17,11 @@
 		4618FF351FA1E6B30085FBD8 /* Consts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF341FA1E6B30085FBD8 /* Consts.m */; };
 		4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4618FF371FA1E8C50085FBD8 /* NetManager.m */; };
 		46A6798B1FA2CA4700301590 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A6798A1FA2CA4700301590 /* launch.png */; };
+		46A679901FA2CFD100301590 /* TitleImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6798F1FA2CFD100301590 /* TitleImageButton.m */; };
+		46A679961FA2D0D500301590 /* TouchSizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679951FA2D0D500301590 /* TouchSizeButton.m */; };
+		46A6799D1FA2D2A600301590 /* NSString+ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679971FA2D2A500301590 /* NSString+ChineseString.m */; };
+		46A6799E1FA2D2A600301590 /* UIImage+HKEPCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679981FA2D2A500301590 /* UIImage+HKEPCircleImage.m */; };
+		46A6799F1FA2D2A600301590 /* UIView+HKEPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679991FA2D2A500301590 /* UIView+HKEPAnimation.m */; };
 		8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EAC1FA221F400A192DC /* HomeViewController.m */; };
 		8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB11FA222BA00A192DC /* HomeNavigationController.m */; };
 /* End PBXBuildFile section */
@@ -42,6 +47,16 @@
 		4618FF361FA1E8C50085FBD8 /* NetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		4618FF371FA1E8C50085FBD8 /* NetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 		46A6798A1FA2CA4700301590 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		46A6798E1FA2CFD100301590 /* TitleImageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleImageButton.h; sourceTree = "<group>"; };
+		46A6798F1FA2CFD100301590 /* TitleImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleImageButton.m; sourceTree = "<group>"; };
+		46A679941FA2D0D500301590 /* TouchSizeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchSizeButton.h; sourceTree = "<group>"; };
+		46A679951FA2D0D500301590 /* TouchSizeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchSizeButton.m; sourceTree = "<group>"; };
+		46A679971FA2D2A500301590 /* NSString+ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseString.m"; sourceTree = "<group>"; };
+		46A679981FA2D2A500301590 /* UIImage+HKEPCircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HKEPCircleImage.m"; sourceTree = "<group>"; };
+		46A679991FA2D2A500301590 /* UIView+HKEPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKEPAnimation.m"; sourceTree = "<group>"; };
+		46A6799A1FA2D2A500301590 /* NSString+ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseString.h"; sourceTree = "<group>"; };
+		46A6799B1FA2D2A500301590 /* UIImage+HKEPCircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HKEPCircleImage.h"; sourceTree = "<group>"; };
+		46A6799C1FA2D2A600301590 /* UIView+HKEPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKEPAnimation.h"; sourceTree = "<group>"; };
 		8B117EAB1FA221F400A192DC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		8B117EAC1FA221F400A192DC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		8B117EB01FA222BA00A192DC /* HomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavigationController.h; sourceTree = "<group>"; };
@@ -172,8 +187,34 @@
 		4618FF291FA1E49E0085FBD8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				46A6798D1FA2CFAD00301590 /* FuncSuper */,
+				46A6798C1FA2CF5400301590 /* Category */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		46A6798C1FA2CF5400301590 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				46A6799A1FA2D2A500301590 /* NSString+ChineseString.h */,
+				46A679971FA2D2A500301590 /* NSString+ChineseString.m */,
+				46A6799B1FA2D2A500301590 /* UIImage+HKEPCircleImage.h */,
+				46A679981FA2D2A500301590 /* UIImage+HKEPCircleImage.m */,
+				46A6799C1FA2D2A600301590 /* UIView+HKEPAnimation.h */,
+				46A679991FA2D2A500301590 /* UIView+HKEPAnimation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		46A6798D1FA2CFAD00301590 /* FuncSuper */ = {
+			isa = PBXGroup;
+			children = (
+				46A6798E1FA2CFD100301590 /* TitleImageButton.h */,
+				46A6798F1FA2CFD100301590 /* TitleImageButton.m */,
+				46A679941FA2D0D500301590 /* TouchSizeButton.h */,
+				46A679951FA2D0D500301590 /* TouchSizeButton.m */,
+			);
+			path = FuncSuper;
 			sourceTree = "<group>";
 		};
 		8B117EAF1FA2228500A192DC /* Navigation */ = {
@@ -266,11 +307,16 @@
 			files = (
 				4618FF061FA1D61F0085FBD8 /* ViewController.m in Sources */,
 				4618FF2D1FA1E4F60085FBD8 /* BaseViewController.m in Sources */,
+				46A6799E1FA2D2A600301590 /* UIImage+HKEPCircleImage.m in Sources */,
 				4618FF111FA1D61F0085FBD8 /* main.m in Sources */,
+				46A679961FA2D0D500301590 /* TouchSizeButton.m in Sources */,
+				46A6799D1FA2D2A600301590 /* NSString+ChineseString.m in Sources */,
 				4618FF351FA1E6B30085FBD8 /* Consts.m in Sources */,
+				46A679901FA2CFD100301590 /* TitleImageButton.m in Sources */,
 				4618FF381FA1E8C50085FBD8 /* NetManager.m in Sources */,
 				4618FF301FA1E5200085FBD8 /* FuncClassView.m in Sources */,
 				4618FF031FA1D61E0085FBD8 /* AppDelegate.m in Sources */,
+				46A6799F1FA2D2A600301590 /* UIView+HKEPAnimation.m in Sources */,
 				8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */,
 				8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */,
 			);
