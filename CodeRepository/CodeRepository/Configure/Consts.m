@@ -14,6 +14,7 @@
 
 NSString * const AKey = @"AKey";
 
-//Layout
+//Layout configure
 CGFloat const someViewWidth = 10.f;
+
 #endif
