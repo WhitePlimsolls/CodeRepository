@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "DeviceInfo.h"
 
 @interface HomeViewController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@", [DeviceInfo deviceNameString]);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -22,6 +22,7 @@
 		46A6799D1FA2D2A600301590 /* NSString+ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679971FA2D2A500301590 /* NSString+ChineseString.m */; };
 		46A6799E1FA2D2A600301590 /* UIImage+HKEPCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679981FA2D2A500301590 /* UIImage+HKEPCircleImage.m */; };
 		46A6799F1FA2D2A600301590 /* UIView+HKEPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A679991FA2D2A500301590 /* UIView+HKEPAnimation.m */; };
+		46EB098D1FA9C7DF005BDCB6 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB098C1FA9C7DF005BDCB6 /* DeviceInfo.m */; };
 		8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EAC1FA221F400A192DC /* HomeViewController.m */; };
 		8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117EB11FA222BA00A192DC /* HomeNavigationController.m */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		46A6799A1FA2D2A500301590 /* NSString+ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseString.h"; sourceTree = "<group>"; };
 		46A6799B1FA2D2A500301590 /* UIImage+HKEPCircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HKEPCircleImage.h"; sourceTree = "<group>"; };
 		46A6799C1FA2D2A600301590 /* UIView+HKEPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKEPAnimation.h"; sourceTree = "<group>"; };
+		46EB098B1FA9C7DF005BDCB6 /* DeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		46EB098C1FA9C7DF005BDCB6 /* DeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		8B117EAB1FA221F400A192DC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		8B117EAC1FA221F400A192DC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		8B117EB01FA222BA00A192DC /* HomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavigationController.h; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				46A679981FA2D2A500301590 /* UIImage+HKEPCircleImage.m */,
 				46A6799C1FA2D2A600301590 /* UIView+HKEPAnimation.h */,
 				46A679991FA2D2A500301590 /* UIView+HKEPAnimation.m */,
+				46EB098B1FA9C7DF005BDCB6 /* DeviceInfo.h */,
+				46EB098C1FA9C7DF005BDCB6 /* DeviceInfo.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				4618FF301FA1E5200085FBD8 /* FuncClassView.m in Sources */,
 				4618FF031FA1D61E0085FBD8 /* AppDelegate.m in Sources */,
 				46A6799F1FA2D2A600301590 /* UIView+HKEPAnimation.m in Sources */,
+				46EB098D1FA9C7DF005BDCB6 /* DeviceInfo.m in Sources */,
 				8B117EAD1FA221F400A192DC /* HomeViewController.m in Sources */,
 				8B117EB21FA222BA00A192DC /* HomeNavigationController.m in Sources */,
 			);
